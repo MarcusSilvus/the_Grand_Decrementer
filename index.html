@@ -10,15 +10,23 @@
 </head>
 
 <body>
+  <p id="welcome-el"></p>
   <h1>People Entered</h1>
   <h2 id="count-el">0</h2>
 
-  <script src="index.js"></script>
+  
 
   <button class="btn" type="button" id="increment-btn" onclick="increment()">+</button>
   <br>
   <button class="btn" type="button" id="decrement-btn" onclick="decrement()">-</button>
+  <br>
+  <br>
+  <button class="btn" type="button" id="save-btn" onclick="save()">Save</button>
+  <br>
+  <h3>Previous entries: </h3>
+  <h4 id="save-el"></h4>
 
+  <script src="index.js"></script>
 </body>
 
 </html>
