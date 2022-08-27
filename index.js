@@ -9,21 +9,24 @@ let myName = "Mark";
 let greeting = "Welcome back";
 let myGreeting = greeting + ", " + myName + "!";
 
-welcomeEL.innerText = myGreeting;
+welcomeEL.textContent = myGreeting;
 
 function increment () {
   count++;
-  countEl.innerText = count;
+  countEl.textContent = count;
 }
 
 function decrement () {
   count--;
-  countEl.innerText = count;
+  countEl.textContent = count;
 }
 
 function save () {
  let currentNum = count + " - ";
-  saveEl.textContent += currentNum; 
+  saveEl.textContent += currentNum;
+  count = 0; 
+  countEl.textContent = count;
+
 }  
 
 
