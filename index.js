@@ -22,8 +22,8 @@ function decrement () {
 }
 
 function save () {
- let currentNum = count + " -";
-  saveEl.innerText += " " + currentNum; 
+ let currentNum = count + " - ";
+  saveEl.textContent += currentNum; 
 }  
 
 
